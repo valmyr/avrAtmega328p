@@ -29,7 +29,7 @@ int main(){
     
     PCICR  = 0b00000100;//PINT2
     PCMSK2 = 0b00001100;//PD2 e PD3
-    sei();//chaver mestrer de controle de interrupções
+    sei();//chaver mestre de controle de interrupÃ§Ãµes
     while(true);
 }
 ISR(PCINT2_vect){
